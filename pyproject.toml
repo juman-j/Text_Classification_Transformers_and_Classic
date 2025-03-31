@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "seznam_test"
+name = "test_task"
 version = "0.1.0"
 description = ""
 authors = ["Artem Sorokin <artem.sorokin@tuta.io>"]
