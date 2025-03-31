@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "seznam_test"
+version = "0.1.0"
+description = ""
+authors = ["Artem Sorokin <artem.sorokin@tuta.io>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.10"
+loguru = "^0.7.2"
+matplotlib = "^3.8.3"
+nltk = "^3.9.1"
+pandas = "^2.2.0"
+python-dotenv = "^1.0.1"
+scikit-learn = "^1.4.0"
+seaborn = "^0.13.2"
+transformers = "^4.50.0"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+torchaudio = "^2.6.0"
+ipykernel = "^6.29.5"
+datasets = "^3.4.1"
+accelerate = "^1.5.2"
+wandb = "^0.19.8"
+numpy = "^2.2.4"
+stanza = "^1.10.1"
+stopwordsiso = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.8.3"]
+build-backend = "poetry.core.masonry.api"
